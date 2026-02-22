@@ -22,7 +22,7 @@ while True:
         if evento.type == QUIT:
             pygame.quit()
             quit()
-    
+        
     for pos in cobra_pos:
         janela.blit(cobra_surface,pos)
 
